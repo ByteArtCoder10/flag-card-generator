@@ -32,18 +32,25 @@ Each card displays a **flag** on one side and **country details** (including nam
 # 🚀 **INSTALLATION & USAGE**
 
 1. **Clone the repository**
+```bash
 git clone https://github.com/ByteArtCoder10/flag-card-generator.git
 cd flag-card-generator
+```
 
 3. **Install dependencies:**
+```bash
 pip install -r requirements.txt
+```
 
-4. **Run the script**
+5. **Run the script**
+```bash
 python main.py
+```
 
 All required assets (flags, fonts, JSON data) are already included. You do not need the old scripts to run the program.
 
 🛠️ **LEGACY SCRIPTS**
+
 These scripts were used in earlier versions to prepare assets, but are no longer needed for normal use:
   -crop.py – cropped and normalized flag images/
   -generate_flags_folder_and_country_data.py – generated the flags/ folder and countries_data.txt file/
@@ -51,4 +58,4 @@ These scripts were used in earlier versions to prepare assets, but are no longer
 The program now includes all assets, allowing you to generate PDFs directly without needing to run these scripts.
 
 📄 **LICENSE**
-Public License/
+Public License.
