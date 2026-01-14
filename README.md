@@ -1,35 +1,37 @@
-# 🌎 **FLAG CARD GENERATOR**
+# **FLAG CARD GENERATOR**
 
-A Python tool to create **printable world-flag flashcards**.  
-Each card displays a **flag** on one side and **country details** (including name, capital, continent, and languages) on the other. Perfect for learning geography & educational purposes!
+A Python tool to create printable world-flag flashcards.  
+Each card displays a flag on one side and **country details** (including name, capital, continent, and languages) on the other. great for learning geography and educational purposes!
 ---
 
-# 🧩 **FEATURES**
+# **FEATURES**
 
-- Automatic Flag Download & Conversion – Downloads SVG flags and converts them to PNG.  
-- Uniform Size – Flags resized to **9 × 6 cm** for printing.  
-- Country Data Support – Uses Microsoft Word tables to fetch:  
+- Automatic Flag Download & Conversion - Downloads SVG flags and converts them to PNG.  
+- Size - Flags resized to 9 × 6 cm for printing.  
+- Country Data Support – oUsed Microsoft Word tables to fetch:  
   - Country name  
   - Capital  
   - Continent  
-  - Languages  
-- PDF Output – Double-sided printing:  
-  - **Front:** Flags, 8 per page.
-  - **Back:** Country info aligned behind each flag.
-- Educational – Ideal for flashcards or learning materials/
+  - Languages
+*Note: I couldn't find the docx file...|:
+ so 2 dictionaries are included in the source code (one for Capital, language etc.. the other for ISO 3166).
+- PDF Output -  two sided printing:  
+  - Front: Flags, 8 per page.
+  - Back: Country info aligned behind each flag.
+- Educational – best for flashcards or learning materials/
 
 
-# ⚙️ **TECHNOLOGIES USED**
+# **LIBRARIES USED**
 
 - Python 3
-- Pillow (PIL) – image processing
+- Pillow (PIL) - image processing
 - requests – download SVGs
 - reportlab – PDF generation
 - pandas – read Microsoft Word file data
 
 ---
 
-# 🚀 **INSTALLATION & USAGE**
+# **INSTALLATION & USAGE**
 
 1. **Clone the repository**
 ```bash
@@ -49,7 +51,7 @@ python main.py
 
 All required assets (flags, fonts, JSON data) are already included. You do not need the old scripts to run the program.
 
-🛠️ **LEGACY SCRIPTS**
+**LEGACY SCRIPTS**
 
 These scripts were used in earlier versions to prepare assets, but are no longer needed for normal use:
   -crop.py – cropped and normalized flag images/
